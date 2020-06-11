@@ -76,7 +76,7 @@ h3 {
 
 .container {
   display: flex;
-  justify-content: center;
+  margin-left: 28.5vw;
   margin-top: 2.2vh;
 }
 

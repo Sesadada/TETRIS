@@ -12,34 +12,31 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6.2rem;
   font-weight: 530;
   letter-spacing: 0.2rem;
   font-family: "Lato", sans-serif;
-  margin-top: 4vh;
+  margin-top: 3vh;
   text-align: center;
   color: #e1ccf7;
 }
 
 #top {
-  justify-content: center;
-  display: flex;
-  margin-top: 4vh;
+  position: relative;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   letter-spacing: 0.2rem;
   font-family: "Lato", sans-serif;
   font-weight: 100;
-  color: #b484c5;
-  margin-top: 0.4vh;
-  margin-right: 0.3vw;
+  color: #9868bb;
+  margin-bottom: 0.3vw;
 }
 
 #start-button {
   color: #b484c5;
-  height: 3vh;
+  height: 2vh;
   padding: 0.2rem;
   border-radius: 7px;
   border: none;
@@ -48,10 +45,32 @@ h3 {
   font-weight: 500;
   font-size: 0.5rem;
   letter-spacing: 0.1em;
+  background-color: #e1ccf7;
 }
 
 #start-button:hover {
   background-color: palevioletred;
+  color: white;
+}
+
+#restart {
+  color: #f87f74;
+  height: 2vh;
+  padding: 0.2rem;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  transition-duration: 0.4s;
+  font-weight: 500;
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  background-color: #e1ccf7;
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+#restart:hover {
+  background-color: #00ffc2;
   color: white;
 }
 
@@ -62,7 +81,7 @@ h3 {
 }
 
 .grid {
-  width: 22.86vw;
+  width: 22.85vw;
   height: 75.18vh;
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +94,7 @@ h3 {
 }
 
 .grid div {
-  height: 3.75vh;
+  height: 3.758vh;
   width: 2.28vw;
 }
 
@@ -85,13 +104,19 @@ h3 {
 
 .mini-grid {
   margin-left: 2vw;
+  margin-right: 2vw;
   width: 9.14vw;
-  height: 15.03vh;
+  height: 15vh;
   display: flex;
   flex-wrap: wrap;
-  background-color: #e1ccf7;
+  background: rgb(237, 125, 181);
+  background: linear-gradient(
+    180deg,
+    rgba(237, 125, 181, 1) 0%,
+    rgba(177, 151, 196, 1) 100%
+  );
 }
 .mini-grid div {
-  height: 3.75vh;
-  width: 2.28vw;
+  height: 3.755vh;
+  width: 2.285vw;
 }
